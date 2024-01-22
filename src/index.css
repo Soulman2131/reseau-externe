@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #333;
+  color: whitesmoke;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  padding: 0 10% 10%;
+}
+.app-container {
+  max-width: 112rem;
+  margin: auto;
+}
+.main-container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: purple;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav a,
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+.a-link {
+  color: #15dea5;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.addpost-container,
+.posts-container {
+  margin: 2rem auto 1rem;
+}
+.posts-infos {
+  font-size: 1.2rem;
+}
+
+article {
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  border: 1px solid whitesmoke;
+  padding: 1rem;
+}
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid whitesmoke;
+  display: inline-block;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  margin: 0.5em 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-emoji {
+  margin: 0 0.25em 0 0;
+  background: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 1.4rem;
+}
+.delete-btn {
+  background-color: palevioletred;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  transition: all 0.2s;
+}
+.delete-btn:hover {
+  background-color: rgb(251, 131, 171);
+}
