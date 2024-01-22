@@ -1,9 +1,10 @@
-# Réseau interne de Trois salariées 
-En utilisant React && Redux Toolkit, je développe le réseau interne d'une petite entreprise de trois collaboratrices pour communiquer et faire des activités entre elles.
+# Réseau social d'une PME 
+En utilisant React && Redux Toolkit et de l'API Json-PlaceHolder, je développe le réseau social d'une PME  pour communiquer et faire des activités entre salariés.
 ##
 
  ### Maquette
-![reseau-interne](https://github.com/Soulman2131/reseau-interne/assets/109850920/30890ec5-0093-4bb5-9252-7b44b78578ae)
+![toolkit2](https://github.com/Soulman2131/reseau-externe/assets/109850920/b4bd61b9-0425-4885-8c62-96884b99d4dc)
+
 
 #### Aspects techniques
 - Concepts de base : components, props, JSX.
